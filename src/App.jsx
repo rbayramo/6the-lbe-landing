@@ -69,9 +69,9 @@ function SiteHeader({ theme, onToggleTheme }) {
   }, [])
 
   const logoLong =
-    theme === 'light' ? '/logo-light-long.jpg' : '/logo-dark-long.jpg'
+    theme === 'light' ? '/logo-dark-long-removebg-preview.png' : '/logo-dark-long-removebg-preview.png'
   const logoShort =
-    theme === 'light' ? '/logo-light-short.jpg' : '/logo-dark-short.jpg'
+    theme === 'light' ? '/logo-dark-short-removebg-preview.png' : '/logo-dark-short-removebg-preview.png'
 
   const toggleMobile = () => setMobileOpen((v) => !v)
   const closeMobile = () => setMobileOpen(false)
